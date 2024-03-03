@@ -81,7 +81,6 @@ const Home = (props) => {
           </div>
         </header>
       </div>
-      <div className="home-hero"></div>
       <h1 className="home-text">Каталог</h1>
       <div className="home-gallery">
         <GalleryCard11 rootClassName="rootClassName"></GalleryCard11>

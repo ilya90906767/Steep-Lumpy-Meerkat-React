@@ -17,6 +17,7 @@
 }
 .home-navbar-interactive {
   color: #ffff;
+  height: 80px;
   background-color: #212121;
 }
 .home-logo {
@@ -36,6 +37,7 @@
 .home-links {
   flex: 1;
   display: flex;
+  position: relative;
   align-items: center;
   flex-direction: row;
   justify-content: center;
@@ -43,29 +45,47 @@
 .home-nav12 {
   width: auto;
   font-size: 16px;
+  align-self: center;
+  text-align: center;
   font-family: "Arial";
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  text-transform: capitalize;
 }
 .home-nav22 {
+  font-size: 16px;
+  align-self: center;
+  text-align: center;
+  font-family: "Arial";
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  text-transform: capitalize;
 }
 .home-nav32 {
+  font-size: 16px;
+  align-self: center;
+  text-align: center;
+  font-family: "Arial";
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  text-transform: capitalize;
 }
 .home-nav42 {
+  font-size: 16px;
+  align-self: center;
+  text-align: center;
+  font-family: "Arial";
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  text-transform: capitalize;
 }
 .home-burger-menu {
   display: none;
@@ -148,16 +168,6 @@
 .home-icon08 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
-}
-.home-hero {
-  flex: 0 0 auto;
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: auto;
-  display: flex;
-  margin-top: 96px;
-  align-items: flex-start;
-  justify-content: center;
 }
 .home-text {
   margin-top: var(--dl-space-space-twounits);
