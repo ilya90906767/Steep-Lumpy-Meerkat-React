@@ -82,7 +82,7 @@ const Home = (props) => {
         </header>
       </div>
       <h1 className="home-text">Каталог</h1>
-      <h1 className="home-text01">Каталог</h1>
+      <h1 className="home-text1">Каталог</h1>
       <div className="home-gallery">
         <GalleryCard11 rootClassName="rootClassName"></GalleryCard11>
         <GalleryCard11
@@ -106,21 +106,17 @@ const Home = (props) => {
           rootClassName="rootClassName5"
         ></GalleryCard11>
       </div>
-      <button type="button" className="home-button button">
-        <span>
-          <span>&gt;&gt;</span>
-          <br></br>
-        </span>
-      </button>
-      <button type="button" className="home-button1 button">
-        <span>
-          <span>&lt;&lt;</span>
-          <br></br>
-        </span>
-      </button>
+      <div className="home-container1">
+        <button type="button" className="home-button button">
+          &lt;&lt;
+        </button>
+        <button type="button" className="home-button1 button">
+          &gt;&gt;
+        </button>
+      </div>
       <footer className="home-footer">
-        <span className="home-text08">
-          <span>@VETRICO designed by ...</span>
+        <span className="home-text2">
+          <span>@VETRICO designed by </span>
           <br></br>
         </span>
       </footer>
