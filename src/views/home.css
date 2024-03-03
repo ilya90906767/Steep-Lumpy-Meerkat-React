@@ -39,6 +39,8 @@
   display: flex;
   position: relative;
   align-items: center;
+  margin-right: var(--dl-space-space-sixunits);
+  padding-right: 112px;
   flex-direction: row;
   justify-content: center;
 }
@@ -173,21 +175,33 @@
   margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
 }
+.home-text1 {
+  color: #212121;
+  font-size: 46px;
+  font-family: "Arial";
+}
 .home-gallery {
   width: 100%;
   display: grid;
-  padding: var(--dl-space-space-threeunits);
+  padding: var(--dl-space-space-halfunit);
   grid-gap: var(--dl-space-space-unit);
   max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.home-text1 {
-  align-self: flex-start;
-  margin-left: 192px;
+.home-button {
+  width: var(--dl-size-size-large);
+  height: var(--dl-size-size-small);
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-unit);
 }
 .home-footer {
   width: 100%;
   display: flex;
+  position: relative;
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
@@ -196,9 +210,13 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.home-image {
-  height: 2rem;
-  object-fit: cover;
+.home-text2 {
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
 }
 @media(max-width: 991px) {
   .home-gallery {
@@ -238,7 +256,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text4 {
+  .home-text2 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -261,10 +279,7 @@
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .home-image {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-text4 {
+  .home-text2 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);

@@ -20,12 +20,31 @@
   color: var(--dl-color-gray-500);
   align-self: flex-start;
 }
-
-
-
-
-
-
+.gallery-card11-root-class-name {
+  margin-left: 0px-;
+  margin-right: 0px-;
+  margin-bottom: 0px;
+}
+.gallery-card11-root-class-name1 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.gallery-card11-root-class-name2 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.gallery-card11-root-class-name3 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.gallery-card11-root-class-name4 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.gallery-card11-root-class-name5 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 @media(max-width: 767px) {
   .gallery-card11-gallery-card {
     flex-direction: column;

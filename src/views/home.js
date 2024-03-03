@@ -82,6 +82,7 @@ const Home = (props) => {
         </header>
       </div>
       <h1 className="home-text">Каталог</h1>
+      <h1 className="home-text1">Каталог</h1>
       <div className="home-gallery">
         <GalleryCard11 rootClassName="rootClassName"></GalleryCard11>
         <GalleryCard11
@@ -105,20 +106,11 @@ const Home = (props) => {
           rootClassName="rootClassName5"
         ></GalleryCard11>
       </div>
-      <span className="home-text1">
-        <span>1 страница</span>
-        <br></br>
-      </span>
-      <button type="button" className="button">
+      <button type="button" className="home-button button">
         Next page
       </button>
       <footer className="home-footer">
-        <img
-          alt="logo"
-          src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-          className="home-image"
-        />
-        <span className="home-text4">
+        <span className="home-text2">
           <span>@VETRICO designed by ...</span>
           <br></br>
         </span>
