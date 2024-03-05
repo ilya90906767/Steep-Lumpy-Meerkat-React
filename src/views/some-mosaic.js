@@ -79,31 +79,57 @@ const SomeMosaic = (props) => {
         </div>
       </header>
       <div className="some-mosaic-gallery-card">
-        <h1 className="some-mosaic-text">Артикул</h1>
-        <img
-          alt="image"
-          src="https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEyfHxmb3Jlc3R8ZW58MHx8fHwxNjI2MjUxMjg4&amp;ixlib=rb-1.2.1&amp;h=1500"
-          className="some-mosaic-image"
-        />
-        <div className="some-mosaic-container1">
-          <span className="some-mosaic-text1">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            vestibulum vitae urna vel luctus. Aenean lobortis rhoncus ipsum, vel
-            porta est ornare ut. Quisque faucibus dui non cursus porta.
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
-          <button type="button" className="some-mosaic-button button">
-            <span className="some-mosaic-text2">
-              <span>Приобрести</span>
-              <br></br>
-            </span>
-          </button>
+        <div className="some-mosaic-hero">
+          <div className="some-mosaic-container1">
+            <div className="some-mosaic-container2">
+              <span className="some-mosaic-text">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  id pretium quam.
+                </span>
+                <br></br>
+                <br></br>
+                <span>
+                  {' '}
+                  Suspendisse potenti. Integer a blandit urna, ut scelerisque
+                  massa. Proin et felis sit amet tortor volutpat malesuada ac
+                  eget dolor.
+                </span>
+                <br></br>
+                <br></br>
+                <span>
+                  {' '}
+                  Nulla eget lectus vestibulum, venenatis erat vel, dapibus
+                  dolor. Donec efficitur accumsan arcu, at laoreet tortor
+                  dapibus quis. Suspendisse enim tortor, accumsan nec nisi sed,
+                  convallis mollis nisi.
+                </span>
+              </span>
+            </div>
+            <h1 className="some-mosaic-text08">Панды</h1>
+            <div className="some-mosaic-container3"></div>
+          </div>
+          <div className="some-mosaic-gallery">
+            <div className="some-mosaic-container4">
+              <img
+                alt="image"
+                src="https://static.insales-cdn.com/images/products/1/2160/524871792/UB167.jpg"
+                className="some-mosaic-image"
+              />
+            </div>
+          </div>
         </div>
       </div>
+      <button className="some-mosaic-button button">Связаться с нами</button>
+      <footer className="some-mosaic-footer">
+        <div className="some-mosaic-separator"></div>
+        <div className="some-mosaic-container5">
+          <span className="some-mosaic-text09">
+            © 2024 VETRICO, All Rights Reserved.
+          </span>
+          <div className="some-mosaic-icon-group1"></div>
+        </div>
+      </footer>
     </div>
   )
 }
