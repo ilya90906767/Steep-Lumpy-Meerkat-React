@@ -9,8 +9,8 @@ const MosaicOPV22 = (props) => {
   return (
     <div className="mosaic-opv22-container">
       <Helmet>
-        <title>MosaicOPV22 - Steep Lumpy Meerkat</title>
-        <meta property="og:title" content="MosaicOPV22 - Steep Lumpy Meerkat" />
+        <title>MosaicOPV22 - Vetrico</title>
+        <meta property="og:title" content="MosaicOPV22 - Vetrico" />
       </Helmet>
       <div className="mosaic-opv22-navbar">
         <NavbarInteractive rootClassName="navbar-interactive-root-class-name2"></NavbarInteractive>
