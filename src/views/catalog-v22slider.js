@@ -10,8 +10,8 @@ const CatalogV22slider = (props) => {
   return (
     <div className="catalog-v22slider-container">
       <Helmet>
-        <title>Vetrico</title>
-        <meta property="og:title" content="Vetrico" />
+        <title>CatalogV22slider - Vetrico</title>
+        <meta property="og:title" content="CatalogV22slider - Vetrico" />
       </Helmet>
       <div className="catalog-v22slider-navbar">
         <NavbarInteractive rootClassName="navbar-interactive-root-class-name4"></NavbarInteractive>
