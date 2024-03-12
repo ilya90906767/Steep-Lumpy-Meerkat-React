@@ -35,10 +35,22 @@ const CatalogV22slider = (props) => {
               className="catalog-v22slider-slider-slide swiper-slide"
             >
               <CardForCatalog rootClassName="card-for-catalog-root-class-name27"></CardForCatalog>
-              <CardForCatalog rootClassName="card-for-catalog-root-class-name28"></CardForCatalog>
-              <CardForCatalog rootClassName="card-for-catalog-root-class-name29"></CardForCatalog>
-              <CardForCatalog rootClassName="card-for-catalog-root-class-name30"></CardForCatalog>
-              <CardForCatalog rootClassName="card-for-catalog-root-class-name31"></CardForCatalog>
+              <CardForCatalog
+                text="Алеша Попович"
+                rootClassName="card-for-catalog-root-class-name28"
+              ></CardForCatalog>
+              <CardForCatalog
+                text="Илья Муромец"
+                rootClassName="card-for-catalog-root-class-name29"
+              ></CardForCatalog>
+              <CardForCatalog
+                text="Добрыня Никитич"
+                rootClassName="card-for-catalog-root-class-name30"
+              ></CardForCatalog>
+              <CardForCatalog
+                text="Геометрический узор"
+                rootClassName="card-for-catalog-root-class-name31"
+              ></CardForCatalog>
               <CardForCatalog rootClassName="card-for-catalog-root-class-name32"></CardForCatalog>
             </div>
             <div

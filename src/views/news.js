@@ -80,7 +80,7 @@ const News = (props) => {
         />
         <img
           alt="image"
-          src="/mosaic/workshop-700h.jpg"
+          src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
           className="news-image3"
         />
         <img
