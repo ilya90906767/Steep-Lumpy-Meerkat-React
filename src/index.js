@@ -8,20 +8,19 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
-import CatalogV22 from './views/catalog-v22'
-import CatalogV22slider from './views/catalog-v22slider'
+import VetricoCatalog, { VetricoCatalog1 } from './views/vetrico-catalog'
 import News from './views/news'
-import MosaicOPV22 from './views/mosaic-opv22'
+import VetricoMosaic from './views/vetrico-mosaic'
 import NotFound from './views/not-found'
 
 const App = () => {
   return (
     <Router>
       <Switch>
-        <Route component={CatalogV22} exact path="/catalog-v22" />
-        <Route component={CatalogV22slider} exact path="/catalog" />
+        <Route component={VetricoCatalog} exact path="/vetrico-catalog" />
+        <Route component={VetricoCatalog1} exact path="/catalog" />
         <Route component={News} exact path="/news" />
-        <Route component={MosaicOPV22} exact path="/mosaic" />
+        <Route component={VetricoMosaic} exact path="/mosaic" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
