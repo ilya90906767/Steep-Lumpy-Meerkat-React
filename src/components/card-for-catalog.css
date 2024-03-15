@@ -151,7 +151,7 @@
     height: 200px;
   }
   .card-for-catalog-text {
-    font-size: 20px;
+    font-size: 1.5rem;
     padding-top: var(--dl-space-space-halfunit);
   }
 }
